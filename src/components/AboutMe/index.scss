@@ -1,0 +1,59 @@
+*{
+ margin: 0;
+}
+
+.profile{
+    background-color: #000;
+    width: 600px;
+    margin-top: 15%;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #000;
+    max-width: 500px;
+    max-height: 500px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    opacity: 0;
+    animation: fadeInUp 1s 1s;
+    animation-fill-mode: forwards;
+
+    
+
+img{
+    border-radius: 50%;
+    width: 300px;
+    margin: 2px;
+	float: left;
+    shape-margin: 2.5rem;
+    opacity: 0;
+    shape-outside: circle(22.39% at 509px 369px);
+    shape-margin: 3rem;
+    animation: fadeInUp 1.1s 1s;
+    animation-fill-mode: forwards;
+}
+    
+}
+
+.about-title{
+    color: white;
+    font-family: Helvetica Neue;
+    margin-top: 15%;
+    font-size: x-large;
+    opacity: 0;
+    animation: fadeInUp 1s 1s;
+    animation-fill-mode: forwards;
+
+
+}
+.about-subtitle{
+    color: white;
+    font-family: Helvetica Neue;
+    margin-top: 20px;
+    margin-left: 10%;
+    font-size: larger;
+    opacity: 0;
+
+    animation: fadeInUp 1.5s 1s;
+    animation-fill-mode: forwards;
+
+}
