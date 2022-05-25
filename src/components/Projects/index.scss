@@ -1,23 +1,49 @@
 .grid {
     margin: 0;
-    margin-left: 10%;
-    display: grid;
+    display: block;
     margin-top: 95px;
-    justify-content: center;
-    grid-template-columns: repeat(1, 500px);
-    grid-template-rows: repeat(2, 500px);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 40%;
+
 }
 
 .project-card {
     background-color: #fff;
-    height: 75%;
-    width: 75%;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.13);
     border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
+    margin-bottom: 50px;
 }
 
-.project-card:hover {
+.project-title {
+    text-align: center;
+    color: #fff;
     background-color: #0f2352;
-    height: 73%;
-    width: 73%;
+    border-radius: 30px 30px 0 0;
+    padding: 10px;
+}
+.project-preview {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    
+}
+.project-preview > .calculator-project {
+    width: 100%;
+    z-index: 1;
+    
+}
+
+.card-wave {
+    width: 100%;
+    margin-top: -100px;
+    border-radius: 0 0 30px 30px;
+    margin-bottom: -10px;
+    z-index: -1;
 }
