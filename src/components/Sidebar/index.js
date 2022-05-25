@@ -2,13 +2,13 @@ import './index.scss'
 
 import { Link, NavLink } from 'react-router-dom'
 import{ FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCode, faEnvelope, faHome, faUser, faTree } from '@fortawesome/free-solid-svg-icons'
+import { faCode, faEnvelope, faHome, faUser, faWater } from '@fortawesome/free-solid-svg-icons'
 
 const Sidebar = () => (
     
     <div className="nav-bar">
         <Link className="logo" to="/">
-        <FontAwesomeIcon icon={faTree} />
+        <FontAwesomeIcon icon={faWater} />
 
         </Link>
     <nav className='links'>

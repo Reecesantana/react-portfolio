@@ -1,9 +1,11 @@
 import './index.scss';
+import wave from "../../assets/images/wave.png"
 // import { Link } from 'react-router-dom';
 
 
 const Home = () => {
   return(
+    <>
   <div className ="container">
       <div className='gradient'>
      <div className='title'>
@@ -14,7 +16,8 @@ const Home = () => {
     </div>
       </div>
   </div>
-  
+<img className='wave' src={wave} alt="Wave" />
+  </>
   );
 }
 

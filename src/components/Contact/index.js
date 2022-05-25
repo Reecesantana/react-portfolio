@@ -1,6 +1,5 @@
-import Loader from 'react-loaders';
 import './index.scss';
-
+import wave from "../../assets/images/wave (1).png"
 
 const Contact = () => {
     return(
@@ -36,7 +35,7 @@ const Contact = () => {
      </div>
 
      </div>
-     <Loader type=''/>
+     <img className='wave' src={wave} alt="Waves" />
      </>
     );
   }
