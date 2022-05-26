@@ -35,6 +35,7 @@ const Contact = () => {
      </div>
 
      </div>
+     
      <img className='wave' src={wave} alt="Waves" />
      </>
     );
